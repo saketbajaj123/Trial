@@ -26,6 +26,7 @@ gk.on('error', error => {
 gk.on('close', () => {
   console.log('closed');
   gk.stop()
+  console.log('Stopped Keypressing');
 });
 
 
