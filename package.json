@@ -4,7 +4,8 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "buildelec": "electron-packager . Trial"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -20,6 +21,7 @@
     "electron": "^8.2.5"
   },
   "dependencies": {
+    "electron-packager": "^14.2.1",
     "global-keypress": "0.0.8"
   }
 }
